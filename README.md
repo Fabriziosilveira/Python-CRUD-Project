@@ -1,24 +1,20 @@
 # Projeto CRUD Python
 
-## Para iniciar o projeto abra seu MongoDB Compass
+#### Abra MongoDB Compass
 
+<p align="center">
+  <img src="./assets/images/image.png" width="500">
+</p>
 
-![alt text](./assets/images/image.png)
+- Conecte-se à ``` mongodb://localhost:27017/ ```
+- Crie um banco de dados ``` sistema ``` e 4 colletions com os nomes ``` clientes ```, ```produtos```, ``` pedidos```, ``` funcionarios ```.
 
+<p align="center">
+  <img src="./assets/images/image2.png" width="300">
+</p>
 
-Crie um arquivo 'mongodbConfig.py' na raiz do seu projeto:
-
-```python
-mongodbConfig = {
-    "HOST": "localhost",
-    "PORT": "27017",
-    "DB_NAME": "DataBase"
-}
-```
-
-Para iniciar o Projeto rode o comando:
+#### Para iniciar o Projeto rode o comando:
 
 ```bash
-
-
+python sistema.py
 ```
